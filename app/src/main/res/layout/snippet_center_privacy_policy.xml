@@ -1,0 +1,45 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="35dp"
+                android:background="@drawable/trans_white_background"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:id="@+id/logoHelpetPrivacy"
+                    android:src="@drawable/logo"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:textSize="20dp"
+                    android:text="HELPET Gizlilik Politikası, kullanıcılarından elde ettiği bilgilerin tümünün, hizmet sağlamaya ve hizmetlerini desteklemeye yardımcı olacak şekilde kullanıldığını belirtmektedir.1)HELPET, kendisine sağladığınız ve başkalarının sizin hakkınızda sağladığı her türlü veriyi toplamaktadır . Buna, hesap açmanız, içerik oluşturmanız veya paylaşmanız, başkalarıyla mesajlaşmanız, HELPET’e koyduğunuz bir  fotoğrafın yeri veya bir dosyanın oluşturulduğu tarih ve hatta görüntülediğiniz içerikler bile dahildir. Öte yandan, başkalarının sizin hakkınızda paylaştığı veriler (sizin fotoğrafınızı beğenmesi, size mesaj göndermesi) de HELPET tarafından toplanmaktadır.2)HELPET, verilerinizi  grup şirketlerinden alabilmektedir(Facebook gibi).3)HELPET herhangi bir zamanda hiçbir sebep göstermeden paylaştığınız içeriği reddedebilir, hesabınızı askıya alabilir veya silebilir, size hizmet vermeyi kesebilir. Bu durumda size bildirim yapılacağına ilişkin bir madde de HELPET Kullanıcı Sözleşmesi’nde bulunmamaktadır.4) Gizlilik Politikası’nda veya Kullanıcı Sözleşmesi’nde gerçekleştirilebilecek değişikliklerde sizi “bilgilendirebilir” .HELPET, Gizlilik Politikası’nı ve Kullanım Şartlarını belirli aralıklarla revize edebilir. Kullanım Şartları’nda gerçekleştirilebilecek değişikliklerde ise size makul bir süre önce haber verilir ancak bu, ilgili sayfanın güncellenmesi şeklinde olabilir. Bu değişikliklerden sonra kullanmaya devam etmeniz “bu yeni politikayı kabul ettiğiniz anlamına gelir”.
+"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</merge>

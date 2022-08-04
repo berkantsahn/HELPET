@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/post_profile_image"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="0.5dp"
+        android:src="@drawable/default_profile_photo"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relLayout1"
+        android:layout_toRightOf="@id/post_profile_image"
+        android:layout_marginTop="15dp"
+        android:background="@color/white">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:id="@+id/relLayout2"
+            android:layout_marginBottom="20dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tw_blue_dark"
+                android:textStyle="bold"
+                android:id="@+id/post_profile_username"
+                android:text="username"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textSize="16sp"
+                android:id="@+id/post_time_posted"
+                android:text="3 Gün"
+                android:layout_centerVertical="true"
+                android:textColor="@color/grey"
+                android:layout_toRightOf="@id/post_profile_username"
+                />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_settings"
+                android:id="@+id/settingsPost"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relLayout3"
+            android:layout_below="@id/relLayout2"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/tw_blue_darker"
+                android:text="Ben bir postumBen bir postumBen bir postumBen bir postumBen bir postumSon gfdgdf"
+                android:id="@+id/post_profile"
+                android:layout_below="@id/post_time_posted"
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="2dp"
+                android:id="@+id/image_like_red"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@id/post_profile"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_like_inline"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="2dp"
+                android:id="@+id/image_like"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@id/post_profile"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_like_outline"
+                android:visibility="visible"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_toRightOf="@id/image_like"
+                android:layout_height="30dp"
+                android:id="@+id/speech_bubble"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@id/post_profile"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_comment"
+                android:visibility="visible"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

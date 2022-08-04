@@ -1,0 +1,63 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="35dp"
+                android:background="@drawable/trans_white_background"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:id="@+id/logoHelpetAgreement"
+                    android:src="@drawable/logo"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:textSize="20dp"
+                    android:text="Hizmetlerimizi kullanmakla, HELPET sözleşmenin hüküm ve şartlarını kabul etmektesiniz. Sizin tarafınızdan gerekli kimlik bilgilerinin uygulamaya girilmesi ve yine tarafınızca verilen e-posta adresine gönderilecek e-postanın teyit edilmesi ile üyelik kayıt işlemi tamamlanır.Üyelik kayıt işlemini tamamlayan herkes Kullanıcı olarak nitelendirilir.
+
+1)Kullanıcı, Uygulama’dan faydalanmak için HELPET tarafından talep edilen bilgileri tam, doğru ve güncel bir şekilde sağlayarak HELPET Kullanıcı Sözleşmesini onaylaması gerektiğini bildiğini beyan eder. Kullanıcı statüsünün tesisi sırasında sağlanan bilgilerde herhangi bir değişiklik olması halinde, söz konusu bilgiler derhal güncellenecektir. Bu bilgilerin eksik veya gerçeğe aykırı olarak verilmesi ya da güncel olmaması nedeniyle Uygulama’ya erişim sağlanamamasından ve bunlardan faydalanılamamasından HELPET sorumlu değildir.
+
+2)Kullanıcı tarafından Uygulamaya erişim e-posta adresi ve şifresi kullanılarak gerçekleştirilecektir. Bu şifrenin gizliliğinin ve güvenliğinin korunmasından Kullanıcı sorumlu olacak olup Uygulama üzerinden söz konusu bilgilerin kullanımı ile gerçekleştirilen her türlü faaliyetin Kullanıcı tarafından gerçekleştirildiği kabul edilecek, bu faaliyetlerden doğan her türlü yasal ve cezai sorumluluk Kullanıcı’ya ait olacaktır. Kullanıcı, şifresinin yetkisiz kullanımı veya güvenliğin başka şekilde ihlalinden haberdar olduğunda bu durumu derhal HELPET’e bildirecektir.
+
+3) Kullanıcı tarafından paylaşılan İçerik Kullanıcı’nın mülkiyetinde olup İçerik’e ilişkin tüm sorumluluk Kullanıcı’ya aittir.
+
+4)  HELPET, Kullanıcı tarafından kendisi ile paylaşılan bilgi ve verileri “Gizlilik Politikası” kapsamında saklayacak ve kullanacaktır.
+
+5) Kullanıcı’ya Uygulama üzerinden iletişim araçları sağlanması durumunda Kullanıcı bu iletişim araçlarını yalnızca hukuka uygun amaçlar çerçevesinde kullanacağını beyan ve taahhüt eder. Kullanıcı, söz konusu iletişim araçlarını ürün ve hizmet satışı, karşı tarafın rızası olmadan gönderilen e-postalar, üçüncü kişilerin yazılım ve bilgisayar sistemlerine zarar verebilecek dosyalar, diğer kullanıcılar bakımından hakaret içeren içerikler yahut hukuka aykırı her türlü içerik de dahil olmak üzere Uygulama amacı dışında materyaller paylaşmak için kullanmayacaktır. Kullanıcı, Uygulama üzerinden gerçekleştirdiği her türlü iletişim bakımından bunu yapma yetkisini haiz olduğunu taahhüt eder. HELPET’in Uygulama üzerinden gerçekleştirilen iletişimlerin uygunluğunu yahut bunların Uygulama’nın kullanım amaçlarına yönelik olduğunu kontrol etme yükümlülüğü bulunmamaktadır. Uygulama üzerinden erişilen veya Uygulama’ya ilişkin olarak kullanılan diğer web tabanlı iletişim araçları bakımından da Kullanıcı Uygulama üzerinden sağlanan iletişim araçlarını kullanırken göstermekle yükümlü olduğu özeni gösterecektir. Helpet, Uygulama üzerinden sağladığı iletişim araçlarını kendi takdirine bağlı olarak dilediği zaman kaldırma hakkına sahiptir.
+
+6) Kullanıcı’nın hesabının 3 (üç) ay boyunca pasif olması halinde HELPET Sözleşme’yi feshedebilecektir. Kullanıcı hesabının yasal nedenlerle engellenmiş olmadığı ve Sözleşme’nin feshedildiği hallerde HELPET içeriğe 6 (altı) ay boyunca salt okunur erişim sağlayacaktır.
+
+7) Kullanıcı ile kayıt olurken bildirdikleri e-mail vasıtasıyla veya Uygulamada yer alan genel bilgilendirme aracılığıyla iletişim kurulacaktır. E-mail ile yapılan iletişim yazılı iletişimin yerini tutar. E-mail adresini güncel tutmak ve Uygulamayı bilgilendirmeler için düzenli kontrol etmek Kullanıcı’nın sorumluluğundadır.
+”
+
+
+
+"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</merge>

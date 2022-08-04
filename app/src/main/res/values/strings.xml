@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">HELPET</string>
+
+
+    <!-- Fragman isimleri -->
+
+    <string name="profili_duzenle">Profili Düzenle</string>
+    <string name="sifremi_degistir">Şifremi Değiştir</string>
+    <string name="epostami_degistir">E-Postamı Değiştir</string>
+    <string name="gizlilik_ilkesi">Gizlilik İlkesi</string>
+    <string name="sorun_bildir">Sorun Bildir</string>
+    <string name="helpet_nedir">Helpet Nedir?</string>
+    <string name="cikis_yap">Çıkış Yap</string>
+    <string name="profile_normal_photos">Profil</string>
+    <string name="profile_fragment">Profile</string>
+    <string name="view_profile_fragment">View_Profile</string>
+
+    <string name="view_post_fragment">View Post</string>
+    <string name="view_comments_fragment">View Comments</string>
+
+
+    <!-- Timestamp -->
+    <string name="posted_days_ago">Gün_Önce</string>
+    <string name="posted_today">Bugün paylaşıldı</string>
+
+    <!-- Dialog isimleri-->
+    <string name="confirm_password_dialog">ConfirmPasswordDialog</string>
+
+    <!-- Fragman isimleri son -->
+
+    <!-- Firebase mesajları -->
+
+    <string name="auth_failed">E-Posta veya Şifrenizi Yanlış Girdiniz!</string>
+    <string name="auth_success">Kimlik Doğrulandı! Anasayfaya Yönlendiriliyor.</string>
+    <string name="kayit_basarisiz">Kayıt İşlemi Sırasında Bir Hata Oluştu. Lütfen Tekrar Deneyin.</string>
+    <string name="kayit_basarili">Kayıt İşlemi Başarıyla Tamamlandı.</string>
+
+    <!-- Firebase mesajları son -->
+
+    <!-- Firebase Database Alanlar -->
+
+    <string name="dbname_users">users</string>
+    <string name="dbname_user_bilgileri">user_bilgileri</string>
+
+    <string name="dbname_photos_normal">photos_normal</string>
+    <string name="dbname_user_photos_normal">user_photos_normal</string>
+
+    <string name="dbname_photos_help">photos_help</string>
+    <string name="dbname_user_photos_help">user_photos_help</string>
+
+    <string name="dbname_posts">posts</string>
+    <string name="dbname_user_posts">user_posts</string>
+
+    <string name="dbname_following">following</string>
+    <string name="dbname_followers">followers</string>
+
+    <string name="field_username">username</string>
+    <string name="field_name">name</string>
+    <string name="field_biyografi">biyografi</string>
+    <string name="field_cinsiyet">cinsiyet</string>
+    <string name="field_yasadigiyer">yasadigiyer</string>
+    <string name="field_email">email</string>
+    <string name="field_comments">comments</string>
+    <string name ="field_user_id">user_id</string>
+    <string name ="field_likes">likes</string>
+    <string name ="field_caption">caption</string>
+    <string name ="field_date_created">date_created</string>
+    <string name ="field_image_path">image_path</string>
+    <string name ="field_photo_id">photo_id</string>
+    <string name ="field_tags">tags</string>
+    <string name = "field_userID">userID</string>
+    <string name="field_send_not">sendNot</string>
+
+
+
+    <!-- Photo Types -->
+    <string name="new_photo_normal">new_photo_normal</string>
+    <string name="new_photo_help">new_photo_help</string>
+    <string name="profil_foto">profil_foto</string>
+
+
+    <!-- Firebase Database Alanlar son -->
+
+
+
+    <!-- intent extras -->
+    <string name="selected_image">selected_image</string>
+    <string name="selected_bitmap">selected_bitmap</string>
+    <string name="calling_activity">calling_activity</string>
+    <string name="return_to_fragment">return_to_fragment</string>
+    <string name="intent_user">intent_user</string>
+
+    <!--Activities-->
+    <string name="search_activity">search_activity</string>
+    <string name="home_activity">Home Activity</string>
+    <string name="profile_activity">profile_activity</string>
+
+    <!-- Bundle args names -->
+    <string name="activity_number">activity_number</string>
+    <string name="bundle_photo">bundle_photo</string>
+    <string name="bundle_user_bilgileri">bundle_user_bilgileri</string>
+
+    <!-- strings -->
+    <string name="gallery">Galeri</string>
+    <string name="photo">Fotoğraf</string>
+
+    <string name="string_open_camera">Kamerayı Aç</string>
+    <string name="string_next">İleri</string>
+    <string name="string_share">Paylaş</string>
+    <string name = "string_add_new_comment">Bir yorum ekle...</string>
+    <string name="string_comments_toolbar">Yorumlar</string>
+    <string name ="comment_today">Bugün</string>
+    <string name="test_username">berkantsahn</string>
+    <string name="write_something">Birşeyler Yaz...</string>
+
+
+</resources>

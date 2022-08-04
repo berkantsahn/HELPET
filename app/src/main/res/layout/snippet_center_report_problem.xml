@@ -1,0 +1,103 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <RelativeLayout
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+
+            <RelativeLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:id="@+id/relLayout1"
+                android:background="@color/tw_blue_darker"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Konu Başlığı:"
+                    android:textSize="20dp"
+                    android:layout_margin="30dp"
+                    android:textColor="@color/white"
+                    android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:id="@+id/relLayout2"
+                android:layout_below="@id/relLayout1"
+                android:background="@color/tw_blue_darker">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/konu_baslik"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/edit_text_whiteline"
+                    android:inputType="textNoSuggestions"
+                    android:ems="10"
+                    android:textColor="@color/white"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_margin="30dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_below="@id/relLayout2"
+                android:id="@+id/relLayout3"
+                android:background="@color/tw_blue_darker"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Konu İçeriği:"
+                    android:layout_margin="30dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:layout_centerVertical="true"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@id/relLayout3"
+                android:id="@+id/relLayout4"
+                android:background="@color/tw_blue_darker">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/konu_icerik"
+                    android:background="@drawable/edit_text_whiteline"
+                    android:inputType="textNoSuggestions"
+                    android:layout_margin="30dp"
+                    android:ems="10"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/white"
+                   />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</merge>
